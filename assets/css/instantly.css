@@ -181,3 +181,10 @@ body {
 .ocultar{
     display: none!important;
 }
+
+#sem{
+    text-align: center;
+    margin-top: -10%;
+    font-size: 35px;
+    color: #444;
+}

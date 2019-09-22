@@ -22,7 +22,7 @@ const noticiasAjax = function(){
 
 			carregando.style.display = "none";
 			noticia.className = "";
-
+			
 			let resposta = JSON.parse(this.responseText);
 					for(let i=0; i<20; i++){
 						let str = resposta.articles[i].publishedAt;
@@ -58,4 +58,3 @@ const noticiasAjax = function(){
 }
 
 button.onclick = noticiasAjax;
-buscarCampo.onblur = noticiasAjax;
